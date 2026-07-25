@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Configure Axios Client pointing to local Express API
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://lead-management-dcx3.onrender.com/api',
   headers: {
     'Content-Type': 'application/json',
   },
